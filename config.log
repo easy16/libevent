@@ -1,0 +1,32 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:529: checking for gcc
+configure:642: checking whether the C compiler (gcc  ) works
+configure:658: gcc -o conftest    conftest.c  1>&5
+configure:684: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:689: checking whether we are using GNU C
+configure:698: gcc -E conftest.c
+configure:717: checking whether gcc accepts -g
+configure:751: checking for ranlib
+configure:809: checking for a BSD compatible install
+configure:864: checking how to run the C preprocessor
+configure:885: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:944: checking for ANSI C header files
+configure:957: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1024: gcc -o conftest -g -O2   conftest.c  1>&5
+configure: In function 'main':
+configure:1019:67: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+configure:1051: checking for unistd.h
+configure:1061: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1051: checking for sys/time.h
+configure:1061: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1051: checking for sys/queue.h
+configure:1061: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1089: checking for TAILQ_FOREACH in sys/queue.h
+configure:1117: checking whether time.h and sys/time.h may both be included
+configure:1131: gcc -c -g -O2  conftest.c 1>&5
+configure:1155: checking for gettimeofday
+configure:1183: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1155: checking for select
+configure:1183: gcc -o conftest -g -O2   conftest.c  1>&5
